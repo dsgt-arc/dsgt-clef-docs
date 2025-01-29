@@ -130,7 +130,10 @@ Your environment is now set up and ready for development.
 # 7. Using `branches` for Development
 Creating a new branch ensures that your development work is separated from the main branch, allowing for easier code management and review.
 
-1. **Fetch All Branches (Optional):** If you want to see all existing branches first, run `git fetch --all`.
+1. **Fetch All Branches (Optional):** If you want to see all existing branches first, run: 
+    ```
+    git fetch --all
+    ```
 2. **Create a New Branch:** Create a new branch off the main branch for your development work:
     ```
     git checkout -b username/your-branch-name
