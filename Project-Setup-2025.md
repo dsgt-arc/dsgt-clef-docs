@@ -114,7 +114,7 @@ Follow the TODOs section in the README.md file.
 To keep dependencies isolated, we will create a virtual environment in your `~/scratch` directory and install the required packages.
 
 After finishing the TODOs from the `clef-project-template`, do the following: 
-1. Navigate to the scratch directory: `cd ~/scratch`
+<!-- 1. Navigate to the scratch directory: `cd ~/scratch`
 2. Create the Virtual Environment: `python -m venv .venv`
 3. Activate the Virtual Environment: `source .venv/bin/activate`
 4. Navigate to your repo: `cd ~/clef/plantclef-2025`
@@ -122,7 +122,44 @@ After finishing the TODOs from the `clef-project-template`, do the following:
 6. Install dependencies: `pip install -r requirements.txt`
 7. Verify the installation: `pip list`
 8. Run the package tests using the `pytest` command: `pytest -v tests/`
-9. Add the **pre-commit hooks** to your repo. This ensures that the code is formatted correctly and that the tests pass before committing: `pre-commit install`
+9. Add the **pre-commit hooks** to your repo. This ensures that the code is formatted correctly and that the tests pass before committing: `pre-commit install` -->
+
+1. Navigate to the scratch directory:
+    ```
+    cd ~/scratch
+    ```
+2. Create the Virtual Environment:
+    ```
+    python -m venv .venv
+    ```
+3. Activate the Virtual Environment: 
+    ```
+    source .venv/bin/activate
+    ```
+4. Navigate to your repo:
+    ```
+    cd ~/clef/plantclef-2025
+    ```
+5. Intall the package in editable mode:
+    ```
+    pip install -e .
+    ```
+6. Install dependencies:
+    ```
+    pip install -r requirements.txt
+    ```
+7. Verify the installation:
+    ```
+    pip list
+    ```
+8. Run the package tests using the `pytest` command:
+    ```
+    pytest -v tests/
+    ```
+9. Add the **pre-commit hooks** to your repo. This ensures that the code is formatted correctly and that the tests pass before committing:
+    ```
+    pre-commit install
+    ```
 
 Your environment is now set up and ready for development.
 
