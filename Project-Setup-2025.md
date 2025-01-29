@@ -109,6 +109,10 @@ Follow the TODOs section in the README.md file.
     4. `tools.setuptools.packages.find:include` should be updated with the directory name of the task package
 3. Update `user/my-username` and the corresponding README.md file with the username and a description of the user's directory.
 
+If you're unsure about the steps above, refer to the [`plantclef-2025`](https://github.com/dsgt-kaggle-clef/plantclef-2025/tree/main) repo for reference.
+
+We're almost done. Next, create a Virtual Environment to isolate project's dependencies.
+
 
 # 6. Setting Up a Virtual Environment
 To keep dependencies isolated, we will create a virtual environment in your `~/scratch` directory and install the required packages.
