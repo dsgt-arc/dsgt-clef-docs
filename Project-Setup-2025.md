@@ -73,7 +73,7 @@ The [**`clef-project-template`**](https://github.com/dsgt-kaggle-clef/plantclef-
 2. Click on the button "**Use this template**" in the upper rigth corner.
 3. Give a name to the repo. The name should be: **`taskname-YYYY`**. For example, the PlantCLEF repo will be `plantclef-2025`.
 4. Change the view access from **"Private"** to **"Public"**.
-5. Click on **""Create repository""**
+5. Click on **"Create repository"**
 
 
 # 5. Cloning the Repository
