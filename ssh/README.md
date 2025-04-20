@@ -1,6 +1,6 @@
 # SSH into PACE
 
-
+In your local machine, follow the instructions below.
 
 ## Authenticate to GitHub using GitHub CLI
 This section streamlines the authentication process to GitHub using the 
