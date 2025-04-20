@@ -17,6 +17,7 @@ You can find the [**GitHub CLI installation instructions**](https://github.com/c
 If you want to do it manually check the GitHub page:
 [**Reference:** Generating a new SSH key and adding it to the ssh-agent](https://docs.github.com/en/authentication/connecting-to-github-with-ssh/generating-a-new-ssh-key-and-adding-it-to-the-ssh-agent)
 
+
 ## Verify GitHub User Information (Optional)
 It's good practice to ensure your Git identity is correctly set:
 1. **Check Git Configurations:** Run `git config --list` to see your Git configurations, including user name and email.
@@ -26,6 +27,7 @@ git config --global user.email "you@example.com"
 git config --global user.name "Your Name"
 ```
 Replace with your GitHub email and name.
+
 
 ## Configuring SSH host aliases
 
@@ -49,6 +51,7 @@ Make sure to add your ssh key to the `~/.ssh/authorized_keys` section after logg
 
 You can now access pace using `ssh pace` and it will automatically log you in.
 The `pace-interactive` alias will use the login node as a jump host, allowing you to run vscode sessions on interactive sessions.
+
 
 ## Add authorized keys to PACE
 
