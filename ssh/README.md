@@ -40,9 +40,9 @@ Host pace
 
 # update this using update-pace-interactive.sh
 Host pace-interactive
-  HostName atl1-1-02-007-30-1.pace.gatech.edu
-  User amiyaguchi3
-  ProxyJump pace
+    HostName atl1-1-02-007-30-1.pace.gatech.edu
+    User amiyaguchi3
+    ProxyJump pace
 ```
 
 This adds an host alias `pace` and `pace-interactive`.
