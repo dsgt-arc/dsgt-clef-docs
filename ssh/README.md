@@ -36,12 +36,12 @@ It is useful to setup your `~/.ssh/config` on your host as follows:
 ```
 Host pace
     HostName login-phoenix.pace.gatech.edu
-    User amiyaguchi3
+    User gpurdell3
 
 # update this using update-pace-interactive.sh
 Host pace-interactive
     HostName atl1-1-02-007-30-1.pace.gatech.edu
-    User amiyaguchi3
+    User gpurdell3
     ProxyJump pace
 ```
 
